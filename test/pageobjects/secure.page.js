@@ -11,6 +11,7 @@ class SecurePage extends Page {
     get shoppingPage () {
         return $('[class="shopping_cart_link"]');
     }
+
 }
 
 export default new SecurePage();
